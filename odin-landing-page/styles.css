@@ -177,3 +177,10 @@ nav ul li a:hover {
     margin: 0; 
     font-size: 1.2em; 
 }
+
+.footer {
+    background-color: rgb(11, 11, 65);
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
