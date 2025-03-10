@@ -1,19 +1,75 @@
 body {
     background-color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
+    padding: 0;
 }
-
+p {
+    color: white;
+    font-size: small;
+    font-weight: 100;
+}
+h1 {
+    font-size: medium;
+    color: white;
+}
+h2 {
+    font: size 48px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+}
 header {
+    padding-left: 90px;
+    margin-bottom: 0;
     background-color: #1F2937;
     font-family: Roboto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    font-size: small;
+    
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.sign-up {
+    background-color: #1F2937;
+    text-align: left;
+    padding-left: 500px;
+    padding: 100px;
+    
+}
+
+#b1 {
+    background-color: rgb(114, 174, 194);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#b1:hover {
+    background-color: darkblue;
 }
